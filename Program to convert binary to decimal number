@@ -1,0 +1,5 @@
+binary_number=input()
+try:
+    print('The decimal form of the given binary number is: ', int(binary_number,2))
+except Exception as e:
+    print("Invalid input")
